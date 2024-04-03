@@ -1,0 +1,95 @@
+{
+    "QMainWindow": [
+        {
+            "tittle": "Login-Signup Form",
+            "icon":":/feather/icons/feather/x-circle.png",
+            "frameless": true,
+            "transluscentBg": true,
+
+            "navigation":[
+            {
+                    "close": "close_window_button",
+
+                    "moveWindow": "header"
+            }
+            ]
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#F5F5F5",
+                            "Text-color": "#333333",
+                            "Accent-color": "#008080",
+                            "Theme-name": "Dark-Blue",
+                            "Icons-color": "#333333",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Modern UI",
+                "ApplicationName": "Modern UI Company",
+                "OrginizationDormain": "Modern UI.org"
+            }
+        }
+    ],
+    "QCustomQStackedWidget":[
+                        {
+                        "name":"stackedWidget",
+                        "transitionAnimation":[
+                        {
+                        "slide":[
+                        {
+                                "active":true,
+                                "duration": 500,
+                                "direction": "horizontal",
+                                "easingCurve": "Linear"
+                        }
+                        ]
+                    }
+                        ],
+                        "navigation":[
+                        {
+
+                        "navigationButtons":[
+                        {
+                                "to_signup": "welcome_to_signup_pg",
+                                "to_login": "welcome_to_login_pg"
+                        }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name":"stackedWidget_2",
+                "transitionAnimation":[
+                {
+                "slide":[
+                {
+                        "active":true,
+                        "duration": 500,
+                        "direction": "vertical",
+                        "easingCurve": "Linear"
+                }
+                ]
+            }
+                ],
+                "navigation":[
+                {
+
+                "navigationButtons":[
+                {
+                        "to_signup": "signup_pg",
+                        "to_login": "login_pg"
+                    }
+                    ]
+                }
+            ]
+        }
+        ]
+}
